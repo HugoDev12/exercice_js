@@ -1,6 +1,6 @@
 //test test test//
 
-let num = null;
+/* let num = null;
 
 function rdmNumber(num){
     num = 10;
@@ -9,4 +9,5 @@ function rdmNumber(num){
 }
 
 //rdmNumber();
-console.log(rdmNumber());
+console.log(rdmNumber()); */
+
