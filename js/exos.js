@@ -207,12 +207,12 @@ console.log(texte); */
 
 //exo 6
 
-var name = "paul dumas";
-var expectedName = "Paul Dumas";
-let strArr = name.split("");
-console.log(strArr);
-strArr[0] = strArr[0].toUpperCase();
-console.log(strArr);
+// var name = "paul dumas";
+// var expectedName = "Paul Dumas";
+// let strArr = name.split("");
+// console.log(strArr);
+// strArr[0] = strArr[0].toUpperCase();
+// console.log(strArr);
 // à continuer.
 //for (let firstLetter in name){
 
@@ -229,4 +229,105 @@ console.log(strArr);
 //l'usage de cette fonction est pour élargir le champ de réussite si un utilisateur doit rentré son nom et son prénom en majuscule.
 
 
-// exo 7
+//exo 7
+
+// let newStudent = [
+//   "Ryan Oper",
+//   "Franck Martin",
+//   "Tom Hawkins"
+// ];
+// let students = [
+//   "John Doe",
+//   "Jane Doe",
+//   "Marc Alm",
+//   "Jimmy Turner"
+// ];
+
+//  console.log(typeof(newStudent));
+//  console.log(typeof(students));
+// let total = Array.prototype.push.apply(students, newStudent);
+// console.log(students);
+
+//exo 8
+
+// let transactions = [
+//   102,50,4563,42,78,146,10563
+// ];
+
+// let researched = 78;
+// console.log(transactions.includes(researched)); // le type de valeur renvoyé est booléen
+
+// if (transactions.includes(researched)){
+//   console.log("We found a matching transaction")}
+//   else {
+//     console.log("No match")
+//   };
+
+//exo 9
+
+// let students = [
+//     "John Doe",
+//     "Jane Doe",
+//     "Marc Alm",
+//     "Jimmy Turner"
+//   ];
+
+// console.log(students);
+
+// let order = students.sort();
+// console.log(order);
+
+// let lastStudent = students[students.length-1];
+// console.log(lastStudent);
+
+//exo 1 functions
+
+// function product(a,b){
+//   return a*b
+// };
+// let result = "The result of the functions is : " + product(4,30);
+// console.log(result);
+
+// rien ne s'affiche si on appelle pas la fonction.
+// elle a un intérêt si on souhaite afficher plusieurs fois "I am the product", on aura juste à appeler la fonction.
+// elle est censée d'après son nom faire une multiplication.
+// à refaire pour comprendre le fonctionnement de la fonction, exercice 1 sur l'url "https://thomgo.github.io/Exercices/frontend/javascript/debutant/functions_creation/functions_creation.html"
+
+//exo 2 functions
+
+// function showDigits(){
+//   for (i=0;i<=9;i++){
+//     console.log(i);
+//   }
+// };
+// showDigits();
+
+//exo 3 functions
+
+// function welcome(firstname = "John", lastname = "Doe"){
+//   console.log("Welcome to our site " + firstname + " " + lastname);
+// };
+// welcome();
+
+//exo 4 functions
+
+// function isAdult(age){
+//   if (age >= 18){
+//     return "Welcome to the site"
+//   }
+//   else {
+//     return false
+//   };
+// };
+
+// let valid = isAdult(18);
+// console.log(valid);
+
+//exo 5 functions
+
+// function birthYear(){
+
+// }
+
+let today = new Date();
+console.log(today);
