@@ -152,3 +152,81 @@ if (number > 0) {
     console.log("number is impair");
 }}
 console.log("Please enter a number at least greater than 0"); */
+
+//fonctions exo1
+
+
+//Math.random();  ne renvoit rien car aucun paramètre n'a été défini.
+// cette fonction sert à obtenir un nombre flottant pseudo-aléatoire entre 0 et 1.
+// attention 1 est exclu ([0,1[).
+// cas d'usage... dans les jeux où il existe un facteur chance.
+
+/* function getRandomInt(){
+  return Math.random();
+}
+
+let int = getRandomInt();
+
+console.log(int); */
+
+//exo 2
+
+// let number = 12.42359;
+// console.log(number); // affiche un nombre, et plus précisemment un float.
+// number = Math.round(number); // ne garde pas les décimaux..
+// console.log(number); //si le nombre est un décimal à .5, Math.round(x, 1) va arondir jusqu'à 13.
+// number = Math.round((number + Number.EPSILON) * 100) / 100;
+// console.log(number);
+
+//exo 3
+
+/* let age = "35";
+console.log(typeof(age));
+age = parseInt(age);
+console.log(typeof(age)); */
+
+//exo 4
+
+/* let texte = "J'écris une phrase";
+let maxLength = 20;
+console.log(texte.length);
+
+if (texte.length > maxLength){
+  console.log("Your texte is too long")}
+else {
+   console.log("OK")   
+}; */
+
+//exo 5
+/* 
+let texte = "A nice boat";
+console.log(typeof(texte)); // type string
+texte = texte.split("",3); // le paramètre 3 va créer un tableau de 3 valeurs.
+texte = texte.split("", 11); // avec espace entre les quotes, va séparer les mots. sans l'espace, va séparer chaque caractères!
+console.log(texte); */
+
+//exo 6
+
+var name = "paul dumas";
+var expectedName = "Paul Dumas";
+let strArr = name.split("");
+console.log(strArr);
+strArr[0] = strArr[0].toUpperCase();
+console.log(strArr);
+// à continuer.
+//for (let firstLetter in name){
+
+
+
+
+
+// if (name === expectedName) {
+//   console.log("OK Paul you can come in");
+// }
+// else {
+//   console.log("We do not know you");
+// }
+//l'usage de cette fonction est pour élargir le champ de réussite si un utilisateur doit rentré son nom et son prénom en majuscule.
+
+
+// exo 7

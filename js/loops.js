@@ -82,8 +82,8 @@ for (let key in citizen){
     }
  */
 //exo 9
-/* 
-let citizens = [
+
+/* let citizens = [
   {
     "firstname" : "John",
     "lastname" : "Doe"
@@ -100,32 +100,24 @@ let citizens = [
     "firstname" : "Cecile",
     "lastname" : "Mercier"
   }
-];
+]; */
 
-for (let citizen of citizens){
+/* for (let citizen of citizens){
   console.log("citizen : ");
     for (let key in citizen){
-
-
-
-
-
       console.log(key + " . " + citizen[key]);
     }
-}
+} */
 
   
-for (let index in citizens){
+ /* for (let index in citizens){
   console.log("citizen : ");
     for (let key in citizens[index]){
-
-
-
-
-
       console.log(key + " : " + citizens[index][key]);
     }
-} */
+}
+ */
+
 
 
 
