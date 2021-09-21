@@ -329,5 +329,139 @@ console.log(texte); */
 
 // }
 
-let today = new Date();
-console.log(today);
+// let today = new Date();
+// actualYear = today.getFullYear();
+
+// let userAge = prompt("Veuillez rentrer votre âge");
+// userAge = +userAge;
+// calculAge(userAge);
+
+// function calculAge(userAge){
+//   if (userAge){
+//     let result = alert("Vous êtes nés en " + (actualYear - userAge));
+//     return result;
+//   } else alert("No age given");
+// }
+
+
+// exo 6 functions
+
+// let user = {
+//   "firstname" : "John",
+//   "lastname" : "Doe",
+//   "age" : 42,
+//   "job" : "dev"
+// }
+
+// function identityCard (user){
+//   console.log("firstname : " +user.firstname+ "\nlastname : " +user.lastname+ "\nage : " +user.age+ "\njob : " +user.job);
+// }
+
+// identityCard(user);
+
+// exo 1 autre
+
+// console.log("Hello World");
+// let hello = "Hello World";
+// console.log(hello);
+
+// exo 2 autre
+
+// let calc1 = 3*3;
+// let calc2 = 12/0;
+// let calc3 = 4+9+78;
+// let calc4 = 12-7;
+// let calc5 = 5e4;
+// console.log(calc1, calc2, calc3, calc4, calc5);
+
+// exo 3 autre 
+
+// let askUserName = prompt("Quel est votre nom?");
+// alert("Bienvenue " + askUserName);
+
+// exo 4 autre
+
+// let name = "Occelli";
+// let firstname = "Hugo";
+// console.log("Bonjour " + name + " " + firstname);
+
+// exo 5 autre
+
+// let myNumber = "123";
+// console.log(+myNumber);
+// console.log(typeof (+myNumber));
+
+// exo 6 autre
+
+// let str = "BoNjOuR Mr. SuPrêMe LeAdEr";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// exo 1 bis autre
+
+// let firstString = "";
+// let secondString = "test";
+
+// if (!firstString){
+//   console.log("true");
+// }
+// else {
+//   console.log("false");
+// }
+// if (!secondString){
+//   console.log("true");
+// }
+// else {console.log("false");}
+
+// exo 2 bis autre
+
+// let askUserBirth = prompt("Quelle est votre année de naissance?");
+// let askUserYear = prompt("En quelle année êtes-vous?");
+// askUserBirth = +askUserBirth;
+// askUserYear = +askUserYear;
+// let userAge = (askUserYear - askUserBirth);
+// alert ("Vous avez " + userAge + " ans");
+
+// let neighborAge = prompt("Quel est l'âge de mon voisin?");
+// neighborAge = +neighborAge;
+
+// alert ("Nos 2 âges cumulés font " + (userAge + neighborAge) + " ans");
+
+// exo 3 bis autre
+
+// let item1 = 70;
+// let item2 = 59;
+// let item3 = 20;
+
+// let reduceBonus = ((item1 + item2 + item3)/100)*20;
+
+// let total = (item1 + item2 + item3) - reduceBonus;
+// console.log(total + "€");
+
+// exo 4 bis autre
+
+// let userAskNumber = +(prompt("Choisissez un nombre"));
+// let toAdd = +(prompt("Un autre nombre à additionner"));
+// let toAddMore = userAskNumber + toAdd;
+// let toContinue = prompt("Voulez-vous continuer ? oui ou non");
+
+// while (!(toContinue ==="non")){
+//   toAddMore = toAddMore + +(prompt ("Un autre"));
+//   toContinue = prompt("Voulez-vous continuer ? oui ou non");
+// }
+// let result = toAddMore;
+// alert("le résultat est " + result);
+
+// exo 5 autre bis
+
+// let askUserFirstname = prompt("Quel est votre prénom");
+// let askUserName = prompt("Quel est votre nom");
+// askUserFirstname = askUserFirstname.split("");
+// askUserName = askUserName.split("");
+
+
+
+// console.log(askUserFirstname[0].toUpperCase() + (askUserFirstname.pop().toUpperCase()) + (askUserName[0].toUpperCase() + (askUserName.pop().toUpperCase())));
+
+// let askUserAge = prompt("Quel est votre âge");
+// alert (Math.round(askUserAge /33));
